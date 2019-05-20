@@ -9,14 +9,14 @@ function forLoop(array){
   return array
 }
 
-function whileLoop(number){
-  while(number > 0){
-    console.log(number--)
+function whileLoop(n){
+  while(n > 0){
+    console.log(n--)
   }
   return "done"
 }
 
-function doWhileLoop(num){
+function doWhileLoop(n){
   var i = 0
   function incrementVariable(){
     i = i + 1
