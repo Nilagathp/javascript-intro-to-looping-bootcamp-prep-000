@@ -24,5 +24,5 @@ function doWhileLoop(n){
   }
   do{
     console.log("I run once regardless.")
-  } while(incrementVariable() < parseInt(num))
+  } while(incrementVariable() < parseInt(n))
 }
